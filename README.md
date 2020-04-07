@@ -1,5 +1,5 @@
 # PlexMusic-Skill
-
+FORKED FROM COLLA69
 <img src="https://assets.pcmag.com/media/images/517012-plex-logo.png?width=333&height=245" align="right">
 
 ### Description
@@ -10,12 +10,12 @@ This Mycroft skill can play music from your plex media server with speech comman
   you will need access to a plex media server and a working version of the vlc player.
   
   ##### how to get vlc:
-  Debian/Ubuntu `sudo apt install vlc`  
-  CentOs        `sudo yum install vlc`  
-  Arch/Manjaro  `sudo pacman -S vlc`   
+  Debian/Ubuntu `sudo apt install vlc-bin`  
+  CentOs        `sudo yum install vlc-bin`  
+  Arch/Manjaro  `sudo pacman -S vlc-bin`   
     
 ### Install
-  `msm install https://github.com/colla69/plexmusic-skill.git`
+  `msm install https://github.com/rbcolom/plexmusic-skill.git`
   
 ### Examples
  - "Hey mycroft, play mockingbird!"
